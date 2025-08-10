@@ -1,11 +1,18 @@
-import { Metadata } from "next";
+import { SearchField } from "@/components/layout/ui/search-field/SearchField";
+import { Heading } from "../../components/layout/ui/Heading";
+import type { Metadata } from "next";
+import { Dashboard } from "./Dashboard";
 
 export const metadata: Metadata = {
   title: "Dashboard",
 };
 
 const DashboardPage = () => {
-  return <h1>Dashboard</h1>;
+  return (
+    <div>
+      <Dashboard />
+    </div>
+  );
 };
 
 export default DashboardPage;
