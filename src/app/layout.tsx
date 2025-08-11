@@ -26,7 +26,7 @@ export default function Layout({
   return (
     <html lang="en">
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-        <body className="dark:bg-gray-900 ">{children}</body>
+        <body className="">{children}</body>
       </ThemeProvider>
     </html>
   );

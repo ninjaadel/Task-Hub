@@ -8,7 +8,7 @@ export const SidebarMenu = () => {
         {MENUITEM.map((item) => (
           <li
             key={item.id}
-            className=" items-center  text-gray-900 hover:bg-indigo-700 hover:text-white rounded-full p-2 "
+            className=" items-center  text-gray-900 hover:bg-indigo-700 dark:hover:bg-[#6232ed] hover:text-white dark:text-[#faf8fe] rounded-full p-2 "
           >
             <Link href={item.href} className="flex items-center space-x-1 ">
               <span>{item.icon}</span>

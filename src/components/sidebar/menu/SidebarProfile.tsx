@@ -2,11 +2,13 @@ import { PROFILE } from "../data/profile-data";
 
 export const SidebarProfile = () => {
   return (
-    <div className="bg-gray-100 rounded-3xl p-2 flex items-center justify-between space-x-2 mt-2 mb-6">
+    <div className="bg-gray-100 dark:bg-[#0c121d]  rounded-3xl p-2 flex items-center justify-between space-x-2 mt-2 mb-6">
       <div className="w-10 h-10 bg-blue-500 rounded-full"></div>
       <div>
-        <p className="font-bold text-lg">{PROFILE.name}</p>
-        <p className="text-gray-600 font-medium text-xs">{PROFILE.email}</p>
+        <p className="font-bold text-lg dark:text-[#88939b]">{PROFILE.name}</p>
+        <p className="text-gray-600 font-medium text-xs dark:text-[#88939b]">
+          {PROFILE.email}
+        </p>
       </div>
       <div>
         <a href="">

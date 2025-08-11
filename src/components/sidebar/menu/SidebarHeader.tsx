@@ -3,5 +3,5 @@ interface IProps {
 }
 
 export const SidebarHeader = ({ title }: IProps) => {
-  return <h3 className="text-gray-400 mb-1">{title}</h3>;
+  return <h3 className="text-gray-400 dark:text-[#5a6370] mb-1">{title}</h3>;
 };

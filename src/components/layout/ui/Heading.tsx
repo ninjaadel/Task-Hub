@@ -3,5 +3,5 @@ interface Props {
 }
 
 export function Heading({ children }: Props) {
-  return <h1 className="text-3xl font-medium text-black">{children}</h1>;
+  return <h1 className="text-3xl font-medium ">{children}</h1>;
 }
