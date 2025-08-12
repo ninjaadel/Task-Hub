@@ -1,4 +1,4 @@
-import type { IProjects } from "../menu/projects-type";
+import type { IProjects } from "./projects-type";
 
 export const PROJECTS: IProjects = {
   ActiveProject: {

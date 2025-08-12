@@ -1,4 +1,4 @@
-export interface IProject {
+export interface IProjectPages {
   color: string;
   name: string;
 }

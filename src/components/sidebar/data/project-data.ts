@@ -1,6 +1,6 @@
-import type { IProject } from "../types/project-types";
+import type { IProjectPages } from "../types/projectPages-types";
 
-export const PROJECT: IProject[] = [
+export const PROJECT: IProjectPages[] = [
   {
     color: "bg-blue-500",
     name: "Landing Page",

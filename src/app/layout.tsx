@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+
 import { SITE_NAME } from "@/constant";
 
 import { Geist, Geist_Mono } from "next/font/google";
@@ -24,10 +25,17 @@ export default function Layout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-        <body className="">{children}</body>
-      </ThemeProvider>
+    <html lang="en" suppressHydrationWarning>
+      <body suppressHydrationWarning>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem={false}
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
