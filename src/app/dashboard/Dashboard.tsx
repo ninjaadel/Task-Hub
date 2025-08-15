@@ -6,6 +6,7 @@ import { SearchField } from "@/components/layout/ui/search-field/SearchField";
 import { ToggleThemeButton } from "./ThemeToggle";
 import { Projects } from "@/components/projects/menu/Projects";
 import { ProjectsChart } from "@/components/projectChart/menu/ProjectsChart";
+import { LastTasksList } from "@/components/lastTasks/menu/LastTasksList";
 
 const DynamicThemeToggle = dynamic(
   () => import("./ThemeToggle").then((mod) => mod.ToggleThemeButton),
@@ -24,6 +25,9 @@ export function Dashboard() {
       <div className="flex align-center  gap-4 mt-4">
         <Projects />
         <ProjectsChart />
+      </div>
+      <div>
+        <LastTasksList />
       </div>
     </div>
   );

@@ -47,11 +47,6 @@ const data: ProjectData[] = [
 ];
 
 export function ProjectsChartYear() {
-  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    let activeMonth = true;
-    activeMonth = false;
-  };
-
   return (
     <ResponsiveContainer width="100%" className={"max-h-[380px]"}>
       <AreaChart width={100} height={100} data={data}>
