@@ -59,7 +59,7 @@ export function ProjectsChart() {
   };
 
   return (
-    <div className="bg-white dark:bg-[#050910] rounded-2xl shadow-md p-4 w-full max-w-2xl h-[450px]">
+    <div className="bg-white dark:bg-[#050910] rounded-3xl shadow-md p-4 w-full max-w-[630px] h-[450px]">
       <div className="flex justify-between items-center ">
         <h3 className="text-2xl font-semibold mb-3">Project Statistic</h3>
         <section>

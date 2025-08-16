@@ -3,7 +3,7 @@ import { PROJECTS } from "./projects-data";
 export function NowProjects() {
   const project = PROJECTS.NowProject;
   return (
-    <div className="w-full max-w-sm p-6 bg-[#fce352] dark:bg-[#feb916] shadow-sm rounded-2xl ">
+    <div className="w-full max-w-sm p-5 bg-[#fce352] dark:bg-[#feb916] shadow-sm rounded-2xl ">
       <div className="flex  justify-between align-items-center text-center">
         <div className="flex flex-col items-start">
           <h3 className="text-[45px] font-semibold">{project.id}</h3>

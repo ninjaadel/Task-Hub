@@ -48,7 +48,7 @@ const data: ProjectData[] = [
 
 export function ProjectsChartYear() {
   return (
-    <ResponsiveContainer width="100%" className={"max-h-[380px]"}>
+    <ResponsiveContainer width="100%" className={"p-4 max-h-[380px]"}>
       <AreaChart width={100} height={100} data={data}>
         <XAxis dataKey="name" stroke="#7865d1" />
         <YAxis />

@@ -5,7 +5,7 @@ import { SidebarProject } from "./SidebarProjects";
 
 export function Sidebar() {
   return (
-    <nav className="w-full h-full pt-4 px-3 py-2 dark:bg-[#04080f]">
+    <nav className="w-full  h-auto pt-4 px-3 py-2 dark:bg-[#04080f]">
       {/* Account */}
       <SidebarHeader title="Account" />
       <SidebarProfile />

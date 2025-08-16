@@ -21,11 +21,11 @@ export function LastCard({
     <div className="p-3 rounded-2xl bg-white dark:bg-[#050910]   shadow-lg hover:shadow-xl transition-shadow duration-300 ">
       <div className="grid grid-cols-12">
         <div className="col-span-3">
-          <Plane className="w-12 h-12 rounded-full p-3 bg-[#f8f5f2] dark:bg-[#0c0c27] text-[#9580e2]" />
+          <Plane className="w-9 h-9 rounded-full p-2 bg-[#f8f5f2] dark:bg-[#0c0c27] text-[#9580e2]" />
         </div>
         <div className="col-span-5 gy-2">
-          <h3 className="text-md font-semibold">{title}</h3>
-          <p className="text-sm text-gray-500">{`Due: ${due}`}</p>
+          <h3 className="text-sm font-semibold">{title}</h3>
+          <p className="text-xs text-gray-500">{`Due: ${due}`}</p>
         </div>
         <div className="col-span-4">
           <div className="flex -space-x-2">
@@ -34,7 +34,7 @@ export function LastCard({
                 key={index}
                 src={img}
                 alt={`${title} ${index + 1}`}
-                className="w-10 h-10 rounded-full border-2 border-white relative"
+                className="w-8 h-8 rounded-full border-2 border-white relative"
                 width={32}
                 height={32}
               />
